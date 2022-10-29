@@ -7,7 +7,7 @@ import triple from '../Assets/triple.png'
 function Cards() {
     return (
         <div className='bg-white py-[10rem] px-4'>
-            <div className='max-w-[1240px  grid md:grid-cols-3 gap-8 mx-auto'>
+            <div className='max-w-[1240px]  grid md:grid-cols-3 gap-8 mx-auto'>
                 <div className='w-[100%] shadow-xl flex flex-col p-4 my-4 hover:scale-105 duration-300 cursor-pointer'>
                     <img className='mx-auto mt-[-2rem] w-20 bg-white' width={20} src={single} alt="/" />
                     <p className='text-2xl font-bold text-center py-8'>Single user</p>

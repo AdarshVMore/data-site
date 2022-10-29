@@ -2,8 +2,9 @@ import React from 'react'
 import Typed from 'react-typed'
 
 function Hero() {
+
   return (
-    <div className='text-white mt-[-100px] justify-center items-center flex flex-col mx-auto text-center  w-full h-screen max-w-[800px]'>
+    <div className='px-10 text-white mt-[-100px] justify-center items-center flex flex-col mx-auto text-center  w-full h-screen max-w-[800px]'>
         <div className=' '>
             <p className='text-[#00df9a] font-bold'>
                 growing with data analytics
